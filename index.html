@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Country Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🌍 Country Information Explorer</h1>
+
+    <div class="search-box">
+        <input type="text" id="countryInput" placeholder="Enter country name">
+        <button onclick="getCountry()">Search</button>
+    </div>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<div id="map">
+    <iframe id="mapFrame"
+        width="80%"
+        height="400"
+        style="border:0;"
+        loading="lazy">
+    </iframe>
+</div>

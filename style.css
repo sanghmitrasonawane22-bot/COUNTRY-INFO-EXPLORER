@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+}
+
+h1 {
+    color: #333;
+}
+
+.search-box {
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 220px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px gray;
+}
+
+img {
+    width: 150px;
+    margin-bottom: 10px;
+}
